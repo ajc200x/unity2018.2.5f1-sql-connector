@@ -1,0 +1,11 @@
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenu : MonoBehaviour {
+
+    public void GoToRegister()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+}
